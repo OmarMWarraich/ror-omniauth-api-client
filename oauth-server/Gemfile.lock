@@ -192,6 +192,8 @@ GEM
     nio4r (2.7.3)
     nokogiri (1.16.5-x64-mingw-ucrt)
       racc (~> 1.4)
+    nokogiri (1.16.5-x86_64-linux)
+      racc (~> 1.4)
     noticed (2.3.1)
       rails (>= 6.1.0)
     oauth (1.1.0)
@@ -287,8 +289,8 @@ GEM
     regexp_parser (2.9.2)
     reline (0.5.7)
       io-console (~> 0.5)
-    rexml (3.2.8)
-      strscan (>= 3.0.9)
+    rexml (3.3.6)
+      strscan
     rubyzip (2.3.2)
     selenium-webdriver (4.21.1)
       base64 (~> 0.2)
@@ -347,6 +349,7 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
